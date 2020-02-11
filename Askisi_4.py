@@ -20,11 +20,9 @@ def string_to_number():
     
     if number > 1: 
       
-   # Iterate from 2 to n / 2  
+    
         for i in range(2, number//2): 
-         
-       # If number is divisible by any number between  
-       # 2 and n / 2, it is not prime  
+           
             if (number % i) == 0: 
                 print(number, "is not a prime number") 
                 break
